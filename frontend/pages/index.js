@@ -56,7 +56,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-neutral-950 text-neutral-100 selection:bg-red-500/30">
       <Head>
-        <title>PulseCore | Rapid Crisis Response Dashboard</title>
+        <title>RapidFastSystem | High-Performance Crisis Response Dashboard</title>
         <meta name="description" content="Real-time crisis monitoring and reporting system for rapid response teams." />
       </Head>
 
@@ -74,8 +74,8 @@ export default function Home() {
               <div className="w-3 h-3 bg-red-500 rounded-full animate-ping" />
               <span className="text-red-500 font-bold tracking-widest text-sm uppercase">Live System</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-black tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-white via-white to-neutral-500">
-              PULSE<span className="text-red-600">CORE</span>
+            <h1 className="text-4xl md:text-5xl font-black tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-white via-white to-neutral-500 uppercase">
+              RAPIDFAST<span className="text-red-600">SYSTEM</span>
             </h1>
           </div>
           <div className="bg-neutral-900/50 backdrop-blur-md border border-neutral-800 rounded-2xl p-4 flex items-center gap-6 shadow-xl">
@@ -213,7 +213,7 @@ export default function Home() {
 
       <footer className="border-t border-neutral-900 py-12 mt-12 text-center relative z-10">
         <p className="text-neutral-600 text-xs font-bold tracking-[0.2em] uppercase">
-          &copy; {new Date().getFullYear()} PulseCore Systems • Restricted Access
+          &copy; {new Date().getFullYear()} RapidFastSystem • Restricted Access
         </p>
       </footer>
 
