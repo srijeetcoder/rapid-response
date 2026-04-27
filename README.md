@@ -13,34 +13,22 @@
 - **Advanced Filtering**: Quickly search through incident history to identify patterns or prioritize responses.
 - **Mission-Critical Design**: A high-contrast, dark-mode interface optimized for low-light command centers.
 
-## 🛠️ Deployment
+## 🚀 Deployment (Vercel Ready)
 
-### Prerequisites
-
-- Node.js environment
-- Full-stack environment (Backend + Frontend)
+PulseCore is now fully optimized for **Vercel** deployment. The backend logic is integrated into Next.js API routes (`pages/api/reports.js`), allowing for a seamless, single-command setup.
 
 ### Local Setup
 
-1. **Clone the Secure Repository:**
+1. **Initialize Frontend:**
    ```bash
-   git clone https://github.com/srijeetcoder/rapid-response.git
-   cd rapid-response
-   ```
-
-2. **Initialize Backend (Port 5000):**
-   ```bash
-   cd backend
-   npm install
-   node server.js
-   ```
-
-3. **Initialize Frontend (Port 3001):**
-   ```bash
-   cd ../frontend
+   cd frontend
    npm install
    npm run dev
    ```
+   Navigate to [http://localhost:3001](http://localhost:3001).
+
+---
+**Note:** The separate `backend` folder is kept for architectural reference but is no longer required for the live deployment.
 
 ## 🧠 System Architecture
 

@@ -3,7 +3,7 @@ import Head from 'next/head';
 import axios from 'axios';
 
 // Base URL of backend API (matches backend port 5000)
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = '/api';
 
 export default function Home() {
   const [reports, setReports] = useState([]);
