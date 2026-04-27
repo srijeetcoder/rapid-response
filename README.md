@@ -1,4 +1,4 @@
-# 📡 PULSECORE: Rapid Crisis Response
+# Rapid Crisis Response
 
 **PulseCore** is a state-of-the-art crisis monitoring and reporting system designed for rapid response teams to handle emergencies with precision and speed.
 
